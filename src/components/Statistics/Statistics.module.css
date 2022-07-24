@@ -1,13 +1,31 @@
 .statistics {
   margin: 50px auto;
-  width: 600px;
+  max-width: 400px;
+  border-radius: 5px;
+  overflow: hidden;
   text-align: center;
+  background-color: lightgrey;
 }
 .title {
+  padding: 30px;
+  text-transform: uppercase;
 }
 .statList {
+  display: flex;
+  justify-content: center;
 }
-.label {
+.item {
+  width: 100%;
+  padding: 10px;
+}
+.label,
+.percentage {
+  display: block;
+  font-size: 15px;
+  color: #fff;
 }
 .percentage {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 700;
 }
